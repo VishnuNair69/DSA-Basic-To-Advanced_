@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function btnclick(){
+            flag =  confirm("Record will be deleted\nAre you sure?");
+           if(flag==true){
+                document.write("<font size='5' color='red'><b>Record Deleted</b></font><br><a href='tut19.html'>back</a>");
+           } else {
+                alert("Canceled..");
+           }
+        }
+        
+    </script>
+</head>
+<body>
+    <h2>This is me</h2>
+    <button onclick="btnclick()">Click me</button>
+</body>
+</html>

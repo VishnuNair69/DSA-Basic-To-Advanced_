@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function popUp(){
+            window.alert("Kuy Re Marchod");
+        }
+        function conformMe(){
+            let flag = confirm("Do you want to confrom");
+            if(flag==true){
+                document.querySelector("p").outerHTML = "<h2>Conform suuccessfullky</h2>"
+            }
+            else{
+                document.querySelector("p").innerText = "CANCLED//."
+            }
+        }
+    </script>
+</head>
+<body>
+    <h2>Click Here To pop up this</h2>
+    <button onclick="popUp()">Click ME.</button>
+    
+    
+        <h2>Click Here To Conform this</h2>
+    <button onclick="conformMe()">Click ME.</button>
+    <p></p>
+    
+</body>
+</html>
+
+
+<!-- <!DOCTYPE html>
+<html>
+<head>
+  <script>
+    function DeleteClick() {
+      let flag = confirm("Record will be deleted\nAre you sure?");
+      if(flag == true) {
+        document.querySelector("p").outerHTML = "<h2>Deleted Successfully..</h2>";
+      } else {
+        document.querySelector("p").innerText = "Canceled..";
+      }
+    }
+  </script>
+</head>
+<body>
+  <button onclick="DeleteClick()">Delete</button>
+  <p></p>
+</body>
+</html> -->

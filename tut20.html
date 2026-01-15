@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prompt to H2</title>
+</head>
+<body>
+
+    <h2 id="loginname"></h2>
+
+    <dl>
+        <dt id="newname">Name</dt>
+        <dd><input type="text" placeholder="Enter name"></dd>
+        <dd id="namechange"></dd>
+    </dl>
+
+    <script>
+        var userName = prompt("Enter your name");
+
+        document.getElementById("loginname") = userName;
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,52 @@
+<script>
+
+// var values = [10, true, "A"];
+//     values[0] = 20;
+//     values["1"] = false;
+//     for(var property in values){
+//         document.write(`${property}[${typeof property}]: ${values[property]} [${typeof values[property]}]<br>`);
+//     }
+
+
+// var values = [1,"TV",true,["Delhi","HYD"],function(){
+//     document.write("Hello Form The Array")
+// }];
+// document.write(values[3][1]+"<br>")
+// values[4]();
+
+//    var values = [[[10, 20, 30], [40, 50, 60]],[["A", "B"], ["C", "D"]]];
+//    document.write(values[1][1][0])
+
+    //  var sales = [45000, 42100, 67000, 68000, 23000];
+    //  for(var property in sales){
+    //     document.write(`[${property}]:${sales[property]}<br>`);
+    //  }
+
+    //Array destructruing
+
+    // var details = [1,"TV",true,["Delhi","HYD"]]
+    // var [id,name,stock,cities] =  details;
+    // document.write(
+    //     `
+    //     ID :${id} <br>
+    //     Name :${name} <br>
+    //     Stock :${stock} <br>
+    //     City :${cities[0]}
+    //     `
+    // )
+
+    var values = [10,20,30];
+    values.map(function(value){
+        var li  = document.createElement("li");
+        li.innerHTML = value;
+        document.querySelector("ol").appendChild(li);
+    })
+
+
+
+
+</script>
+<body>
+    <ol>
+        </ol>
+</body>
