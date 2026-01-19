@@ -3,5 +3,7 @@ node_modules
 *.html
 *.css
 *.js
-
+public/
+package.json
+package-lock.json
 
