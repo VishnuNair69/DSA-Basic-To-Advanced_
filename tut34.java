@@ -1,5 +1,9 @@
 
 
+
+
+
+
 public class tut34 {
     // static int a = 30;
     // static void hello(){
@@ -373,13 +377,20 @@ public class tut34 {
         //     System.out.print(s2+" ");
         // }
 
-        String s = "the sky is blue";
-        System.out.print(s);
-        System.out.println();
-        String[] strs = s.split(" ");
-        for(String s1:strs){
-            System.out.print(s1+" ");
-        }
+        // String s = "the sky is blue";
+        // System.out.print(s);
+        // System.out.println();
+        // String[] strs = s.split(" ");
+        // for(String s1:strs){
+        //     System.out.print(s1+" ");
+        // }
+
+        // Scanner scn = new Scanner(System.in);
+        // int a = scn.nextInt();
+        // String b = scn.nextLine();
+
+        String a = "Vishnu";
+        System.out.println(a.substring(0));
 
 
 
