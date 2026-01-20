@@ -1,5 +1,6 @@
 // Problem
 //Remove duplicate characters from a string using recursion, keeping the first occurrence only.
+//Practice
 
 public class tut39 {
     public static void main(String[] args) {
