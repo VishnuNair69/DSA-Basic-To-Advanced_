@@ -3,6 +3,8 @@
 public class tut38 {
 
     public static String alloccurance(String s) {
+
+        
         // Step 1 base case
         if (s.length() == 0)
             return "";
@@ -12,7 +14,7 @@ public class tut38 {
 
         String rest = s.substring(1);
 
-        if (ch == 'a')
+        if (ch == "a")
             return alloccurance(rest);
         else
             return ch + alloccurance(rest);
