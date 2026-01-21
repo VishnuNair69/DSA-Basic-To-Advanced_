@@ -1,3 +1,4 @@
+//This is all the prarice sample code 
 public class tutpratice {
 
     public static int isfact(int n){
