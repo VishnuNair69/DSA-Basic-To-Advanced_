@@ -10,6 +10,7 @@
 public class tut40 {
     public static void main(String[] args) {
         System.out.println(repChar("aaabbc"));
+        
     }
     static String repChar(String s){
         //base condition

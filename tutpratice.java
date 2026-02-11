@@ -8,6 +8,8 @@ public class tutpratice {
         return n*isfact(n-1);
     }
     public static void main(String[] args) {
-        System.out.println(isfact(4));
+        // System.out.println(isfact(4));
+        int s=  101;
+        System.out.println(String.valueOf(s));
     }
 }
